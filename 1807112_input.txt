@@ -1,0 +1,163 @@
+import mathematical.h
+import exchangeInfo.h
+
+root:
+{
+    #///////////////// Main function starts \\\\\\\\\\\\\\\\\
+
+    #/////////////// Variables Declarations \\\\\\\\\\\\\\\\\\\
+    int a,b,c;
+    char x,y,z;
+
+    #//////////////// Value assignments \\\\\\\\\\\\\\\\\\
+    a=6;
+    b=2;
+    c=3;
+
+    #//////////////////// Calculations \\\\\\\\\\\\\\\\\\
+    c = a+b;
+    print(c);
+    c=a-b;
+    print(c);
+    c=a*b;
+    print(c);
+    c=a/b;
+    print(c);
+    c=a%b;
+    print(c);
+    c= 3^2;
+    print(c);
+
+    5++;
+    5--;
+
+    #----------------------------------------conditional-----------------------------------
+    #----- IFELSE functionality
+    IF(a>b)
+    {
+        print(a);
+    }
+    ELSE
+    {
+        print(b);
+    }
+
+    #---------nested if
+
+    IF(a>b)
+    {
+        IF(a<c)
+        {
+            print(c);
+        }
+    }
+
+
+
+
+
+    #---------------------------------------loop------------------------------
+    
+   WHILE(1<5)
+    {
+        a=a-b;
+    }
+    print(a);
+
+
+     FOR (1<5)
+    {
+        a=a+b;
+    }
+    print(a);
+
+    #-----------------------------while---------------------
+
+    
+    WHILE(1<5)
+        {
+            IF(a>b)
+            {
+                print(a);
+            }
+        }
+   
+    
+    #-------------------------------------------switch---------------------------------
+    print(a);
+    SWITCH ( a )
+	    {
+	CASE 1 :
+		a + b; BREAK;
+    ;
+	CASE 2 :
+		b + c; BREAK;
+	;
+	CASE 3 : 
+		a + c; BREAK;
+	DEFAULT :
+		c + 4; BREAK;
+	}
+
+
+#-------------------------------------------
+
+    SWITCH ( a )
+	    {
+	CASE 1 :
+		a + b; BREAK;
+    ;
+	CASE 6 :
+		b + c; BREAK;
+	;
+	CASE 3 : 
+		a + c; BREAK;
+	DEFAULT :
+		c + 4; BREAK;
+	}
+
+#----------------------------------------
+print(b);
+int c;
+c=3;
+SWITCH ( c )
+	    {
+	CASE 1 :
+		a + b; BREAK;
+    ;
+	CASE 2 :
+		b + c; BREAK;
+	;
+	CASE 3 : 
+		a + c; BREAK;
+	DEFAULT :
+		c + 4; BREAK;
+	}
+
+
+
+
+
+
+     #/////////////// ARRAY with intialization \\\\\\\\\\\\\\\
+    ARRAY int N (7) = 1;
+
+    #////////////// FUNCTIONS \\\\\\\\\\\\\\\\\
+    OE(8);
+    OE(7);
+    SIN(0);
+    COS(0);
+    TAN(0);
+
+    ISPRIME(1);
+    ISPRIME(6);
+    ISPRIME(7);
+
+    FIBSERIES(11);
+
+    FACTORS(20);
+
+
+
+
+}
